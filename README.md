@@ -1,4 +1,4 @@
-Python cute based (and this repo forked from) [vim-cute-python](https://github.com/ehamberg/vim-cute-python)
+Python cute based (and this repo forked from) [vim-cute-python](https://github.com/ehamberg/vim-cute-python) <br>
 Cpp cude based on [vim-cute-cpp](https://github.com/LawrencePeng/vim-cute-cpp)
 
 *This does not – at any point – alter your source code*. It simply uses Vim's
