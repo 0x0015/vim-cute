@@ -14,9 +14,9 @@ syntax match cppOperator "\<or\>" conceal cchar=∨
 syntax match cppOperator "\<and\>" conceal cchar=∧
 syntax match cppOperator "\<not\>" conceal cchar=¬
 
-syntax match cppOperator "::" conceal cchar=∷
-
 syntax match cppOperator ":" conceal cchar=∈
+" :: needs to be belowe : .
+syntax match cppOperator "::" conceal cchar=∷
 
 syntax match cppOperator "\<pi\>" conceal cchar=π
 syntax match cppOperator "\<sqrt\>" conceal cchar=√ 
