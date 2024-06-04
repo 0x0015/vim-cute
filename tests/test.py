@@ -63,3 +63,8 @@ if e in [1,2,3] and not a:
 """
 ↵ 7: pass"""
 return 7: pass
+
+"""
+⊤ ≡ ⊥: pass"""
+True == False: pass
+
