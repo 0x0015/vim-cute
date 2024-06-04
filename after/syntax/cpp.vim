@@ -15,11 +15,11 @@ syntax match cppOperator "\<and\>" conceal cchar=∧
 syntax match cppOperator "\<not\>" conceal cchar=¬
 
 syntax match cppOperator ":" conceal cchar=∈
-" :: needs to be belowe : .
+" :: needs to be below : .
 syntax match cppOperator "::" conceal cchar=∷
 
 syntax match cppOperator "\<pi\>" conceal cchar=π
-syntax match cppOperator "\<sqrt\>" conceal cchar=√ 
+syntax match cppOperator "\<\%(\%(std::\)\.\)\?sqrt\>" conceal cchar=√
 
 syntax match cppOperator ">>" conceal cchar=»
 syntax match cppOperator "<<" conceal cchar=«

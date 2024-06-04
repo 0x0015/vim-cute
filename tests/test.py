@@ -1,11 +1,11 @@
 # conceal test -- lines should match
 
 """
-if a is not None: pass """
+if a is not ∅: pass """
 if a is not None: pass
 
 """
-if b is None: pass """
+if b is ∅: pass """
 if b is None: pass
 
 """
@@ -59,3 +59,7 @@ if a <= b: pass
 """
 if e ∈ [1,2,3] ∧ ¬a: """
 if e in [1,2,3] and not a:
+
+"""
+↵ 7: pass"""
+return 7: pass
