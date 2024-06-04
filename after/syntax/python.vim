@@ -32,6 +32,7 @@ syntax match pyNiceOperator "\<\%(\%(math\|np\|numpy\)\.\)\?floor\>" conceal cch
 syntax keyword pyNiceStatement int conceal cchar=ℤ
 syntax keyword pyNiceStatement float conceal cchar=ℝ
 syntax keyword pyNiceStatement complex conceal cchar=ℂ
+syntax keyword cppOperator bool conceal cchar=𝔹
 
 syntax match pyNiceOperator " \* " conceal cchar=∙
 syntax match pyNiceOperator " / " conceal cchar=÷
@@ -44,6 +45,7 @@ syntax match pyNiceOperator "\( \|\)\*\*\( \|\)n\>" conceal cchar=ⁿ
 syntax keyword pyNiceBuiltin len conceal cchar=#
 
 syntax keyword pyNiceStatement lambda conceal cchar=λ
+syntax keyword pyNiceStatement return conceal cchar=↵
 syntax keyword pyNiceStatement None conceal cchar=∅
 
 hi link pyNiceOperator Operator
